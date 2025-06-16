@@ -2,11 +2,13 @@ on: push
 
 jobs:
   job1:
+    name: linux command
     runs-on: ubuntu-latest
     steps:
       - run: pwd
       - run: ls
   job2:
+    name: windows垃圾
     runs-on: windows-latest
     steps:
       - run: python3 --version
