@@ -1,3 +1,5 @@
-ddd
-fdsfadafd
-dfsdfsdfdsdf
+on: push
+
+jobs:
+  job1:
+  job2:
